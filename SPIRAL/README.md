@@ -125,6 +125,7 @@ This repository is released under the Apache 2.0 license as found in the [LICENS
 
 ## Citation
 If you find SPIRAL useful for your research, we would appreciate a citation via
+{% raw %}
 ```
 @inproceedings{huang2022spiral,
   title={{SPIRAL}: Self-supervised Perturbation-Invariant Representation Learning for Speech Pre-Training},
@@ -134,3 +135,4 @@ If you find SPIRAL useful for your research, we would appreciate a citation via
   url={https://openreview.net/forum?id=TBpg4PnXhYH}
 }
 ```
+{% endraw %}
