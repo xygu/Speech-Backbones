@@ -5,9 +5,34 @@
     <title>Play WAV</title>
 </head>
 <body>
-    <h1>播放 WAV 文件</h1>
-    <audio controls src="Grad-TTS/out/new40pt.wav">
+    <h1>GradTTS训练效果对比</h1>
+<!--     <audio controls src="Grad-TTS/out/new40pt.wav">
         Your browser does not support the audio element.
     </audio>
+    <h1>我的 WAV 音频播放器</h1> -->
+
+  <div class="audio-player">
+    <h2>调整模型epoch40</h2>
+    <audio controls>
+      <source src="Grad-TTS/out/new40pt.wav" type="audio/wav">
+      您的浏览器不支持音频播放。
+    </audio>
+  </div>
+
+  <div class="audio-player">
+    <h2>原始模型epoch40</h2>
+    <audio controls>
+      <source src="Grad-TTS/out/old40pt.wav" type="audio/wav">
+      您的浏览器不支持音频播放。
+    </audio>
+  </div>
+
+  <div class="audio-player">
+    <h2>官方最终模型</h2>
+    <audio controls>
+      <source src="Grad-TTS/out/best.wav" type="audio/wav">
+      您的浏览器不支持音频播放。
+    </audio>
+  </div>
 </body>
 </html>
